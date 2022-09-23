@@ -21,6 +21,19 @@ exitPrompt() {
 }
 
 # while loop for the operation
+# loop will run untill it will be false
+while(true)
+    do
+    clear
+    # here given string will be displayed on the screen
+    printf "Choose from the following operations : \n"
+    printf "[a]Addition\n[b]Subtraction\n[c]Multiplication\[d]Division\n"
+    printf "\n"
+    printf "\n"
+    printf "#####################################\n"
+    printf "\n"
+    printf "\n"
+    read -p "Your choice : " choice 
 
 # case expression
 
