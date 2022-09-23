@@ -35,6 +35,33 @@ while(true)
     printf "\n"
     read -p "Your choice : " choice 
 
+    case $choice in 
+    [aA])
+        inputs
+        res=$((int1+int2))
+    ;;
+
+    [bB])
+        inputs
+        res=$((int1-int2))
+    ;;
+
+    [cC])
+        inputs
+        res=$((int1*int2))
+    ;;
+
+    [dD])
+        inputs
+        res=$((int1/int2))
+    ;;
+
+    *)
+        res=0
+        echo "wrong choice!!!"
+
+    esac
+
 # case expression
 
 # displays result
