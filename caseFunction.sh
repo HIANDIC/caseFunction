@@ -64,6 +64,10 @@ while(true)
     # ending case expression
     esac
 
-# case expression
 
-# displays result
+    # displays result
+    echo "The result is : " $res
+    exitPrompt
+
+# while loop ended
+done
