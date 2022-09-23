@@ -35,6 +35,7 @@ while(true)
     printf "\n"
     read -p "Your choice : " choice 
 
+    # case expression is being started and declared
     case $choice in 
     [aA])
         inputs
@@ -59,7 +60,8 @@ while(true)
     *)
         res=0
         echo "wrong choice!!!"
-
+    
+    # ending case expression
     esac
 
 # case expression
