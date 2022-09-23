@@ -8,6 +8,17 @@ input() {
 }
 
 # functions for question if going on or quit
+# for this here a function is declared
+exitPrompt() {
+    read -p "Do you want to continue? [y]es or [n]o :  " answer
+    if (( $answer == 'n' )); then
+        echo "Exiting the script. Have a nice day..."
+        sleep 3
+        exit 
+    else
+        continue
+    fi 
+}
 
 # while loop for the operation
 
